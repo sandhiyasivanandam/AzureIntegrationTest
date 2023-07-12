@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{F9ABB2AF-FDCD-4636-A728-C557DA61686A}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="explorer" Key="{5156E39F-A818-4031-899C-5A9BC77AEAE1}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{7EFF7967-6771-4828-A179-CED439B0E208}">
+								<Image FileName="-1448178451" Left="0" Top="0" Right="1920" Bottom="50" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{4BB1C16B-6346-4F86-9320-7161C1622F63}">
+										<Image FileName="-1448178451" Left="178" Top="0" Right="1497" Bottom="50" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{1C0E1430-B595-467E-9286-91F2677346F2}">
+												<Image FileName="-1448178451" Left="180" Top="0" Right="1497" Bottom="50" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{2F5029A1-BF3C-4981-8806-4EBBDEB1CB8B}">
+														<Image FileName="-1448178451" Left="180" Top="0" Right="1497" Bottom="50" />
+														<TypeInfo Item0="{6DDC7B62-429C-4D20-A8BD-51D50709FE35}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="Google_Chrome_1_running_window" Key="{9598436D-6066-4B17-92D8-E424C129E243}">
+																<Image FileName="2069343162" Left="308" Top="0" Right="370" Bottom="50" />
+																<TypeInfo Item0="{4DDED1FC-62D3-4C73-85C7-EF97B2184C2D}" />
+																<Properties>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="button" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Google_Chrome_1_running_window" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{175A776C-C932-49DF-96B7-BF898B510979}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{7EBEE73C-054D-476C-882C-E93320CCD101}">
+								<Image FileName="-1189370643" Left="-9" Top="-9" Right="1929" Bottom="1039" />
+								<TypeInfo Item0="{62D22AA0-FE92-4DFE-AB28-D9333534671C}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageSoftwareTestingMonitoringDev" Key="{E8084055-B338-4BF1-8121-D2A23D30829E}">
+								<Image FileName="-1301701895" Left="0" Top="128" Right="1920" Bottom="1030" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{08F02C75-9972-4CEE-8575-C4087D4431CC}">
+										<Image FileName="-1301701895" Left="0" Top="128" Right="1899" Bottom="6976" />
+										<Selectors>
+											<Selector>
+												<Value Value="#form" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@action=&apos;/&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerPLtHeader" Key="{3F184C82-4AAC-493B-B7B4-CF45559BF866}">
+										<Image FileName="-1301701895" Left="0" Top="128" Right="0" Bottom="128" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p_lt_Header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeResources" Key="{12778F96-A8A3-4639-ABA3-A2E96C63A199}">
+										<Image FileName="-1301701895" Left="1030" Top="128" Right="1219" Bottom="209" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;How to Use ChatGPT in Your Automated Tests&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkResources" Key="{72009CB3-4935-4FDC-96C5-B3D681EC9B8D}">
+										<Image FileName="-1301701895" Left="1064" Top="128" Right="1184" Bottom="209" />
+										<TypeInfo Item0="{3856E8FD-EA84-46EC-8E03-4BC49CFBA079}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Resources&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;p_lt_Header&apos;]//li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkWebinars" Key="{5B6B3F5A-E1C8-4CF0-AD2C-0D817F552990}">
+										<Image FileName="-63884281" Left="966" Top="389" Right="1271" Bottom="464" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Webinars&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWebinars" Key="{7FA0C94F-0C9E-4E2B-BF3D-7AC5DED93F2B}">
+										<Image FileName="-63884281" Left="1003" Top="389" Right="1271" Bottom="464" />
+										<TypeInfo Item0="{3856E8FD-EA84-46EC-8E03-4BC49CFBA079}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Webinars&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/a[2]/span[contains(@class, &apos;item-name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;webinars&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/a[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSolutions" Key="{1D08707B-02EB-43E9-9DEB-E558A1BA1CCB}">
+										<Image FileName="116888588" Left="852" Top="128" Right="1030" Bottom="209" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Solutions&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSolutions" Key="{BAE34B19-E13E-4B51-8AB6-B6AA0B5AD28D}">
+										<Image FileName="116888588" Left="886" Top="128" Right="996" Bottom="209" />
+										<TypeInfo Item0="{3856E8FD-EA84-46EC-8E03-4BC49CFBA079}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Solutions&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;p_lt_Header&apos;]//li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkFunctionalTesting" Key="{54FC1B27-2AC7-4B75-AF6E-0575AC1B22E2}">
+										<Image FileName="-1221556864" Left="643" Top="324" Right="918" Bottom="368" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Functional Testing&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]//div[2]/a[contains(@class, &apos;dropdown-mega-item&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;p_lt_Header&apos;]//li[2]/div//div[2]/div[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/div//div[2]/div[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFunctionalTesting" Key="{E0A7C8DA-DC96-4A3C-B9E4-C598BEF75CE0}">
+										<Image FileName="-1221556864" Left="680" Top="324" Right="917" Bottom="368" />
+										<TypeInfo Item0="{3856E8FD-EA84-46EC-8E03-4BC49CFBA079}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Functional Testing&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]//div[2]/a/span[contains(@class, &apos;item-name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;functional-testing&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]//div[2]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="explorer" Owner="{5156E39F-A818-4031-899C-5A9BC77AEAE1}">
+			<Child Name="wndShell_TrayWnd" Owner="{7EFF7967-6771-4828-A179-CED439B0E208}">
+				<Child Name="ReBarWindow32" Owner="{4BB1C16B-6346-4F86-9320-7161C1622F63}">
+					<Child Name="MSTaskSwWClass" Owner="{1C0E1430-B595-467E-9286-91F2677346F2}">
+						<Child Name="MSTaskListWClass" Owner="{2F5029A1-BF3C-4981-8806-4EBBDEB1CB8B}">
+							<Child Name="Google_Chrome_1_running_window" Owner="{9598436D-6066-4B17-92D8-E424C129E243}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="browser" Owner="{175A776C-C932-49DF-96B7-BF898B510979}">
+			<Child Name="BrowserWindow" Owner="{7EBEE73C-054D-476C-882C-E93320CCD101}" />
+			<Child Name="pageSoftwareTestingMonitoringDev" Owner="{E8084055-B338-4BF1-8121-D2A23D30829E}">
+				<Child Name="form" Owner="{08F02C75-9972-4CEE-8575-C4087D4431CC}">
+					<Child Name="headerPLtHeader" Owner="{3F184C82-4AAC-493B-B7B4-CF45559BF866}">
+						<Child Name="textnodeResources" Owner="{12778F96-A8A3-4639-ABA3-A2E96C63A199}">
+							<Child Name="linkResources" Owner="{72009CB3-4935-4FDC-96C5-B3D681EC9B8D}" />
+						</Child>
+						<Child Name="linkWebinars" Owner="{5B6B3F5A-E1C8-4CF0-AD2C-0D817F552990}">
+							<Child Name="textnodeWebinars" Owner="{7FA0C94F-0C9E-4E2B-BF3D-7AC5DED93F2B}" />
+						</Child>
+						<Child Name="textnodeSolutions" Owner="{1D08707B-02EB-43E9-9DEB-E558A1BA1CCB}">
+							<Child Name="linkSolutions" Owner="{BAE34B19-E13E-4B51-8AB6-B6AA0B5AD28D}" />
+						</Child>
+						<Child Name="linkFunctionalTesting" Owner="{54FC1B27-2AC7-4B75-AF6E-0575AC1B22E2}">
+							<Child Name="textnodeFunctionalTesting" Owner="{E0A7C8DA-DC96-4A3C-B9E4-C598BEF75CE0}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
